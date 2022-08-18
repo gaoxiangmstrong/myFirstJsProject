@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container img {
+  border-radius: 50px;
+}
+img {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 15px;
+  width: 150px;
+  height: 600px;
+}
+
+.container img {
+  transition: 1s width;
+}
+.active {
+  width: 800px;
+}
